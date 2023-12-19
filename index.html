@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="input_usuario" onkeydown="capturarTecla()" placeholder="Escribe algo">
+        <button onclick="añadir()">Añadir</button>
+        <button onclick="borrar()">Borrar</button>
+        <button onclick="sortea()">Sortea</button>
+      </div>
+      <div class="left">
+        <h1>Participantes</h1>
+        <div class="resultados">
+        </div>
+      </div>
+</body>
+</html>
